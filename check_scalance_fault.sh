@@ -14,7 +14,8 @@
 # 1.1 2015-08-04 Cleaned up some minor ambiguities.                                       #
 # 1.0 2014-10-27 Initial release. Tested with CentOS, Op5 and Scalance X300.              #
 #                                                                                         #
-# Written by Farid.Joubbi@consign.se                                                      #
+# Licensed under the Apache License Version 2.0                                           #
+# Written by farid@joubbi.se                                                              #
 ###########################################################################################
 
 
