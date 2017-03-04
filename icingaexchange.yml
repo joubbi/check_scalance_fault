@@ -1,7 +1,7 @@
 name: check_scalance_fault
 description: "file:///README.md"
 url: "https://gitlab.com/faridj/check_scalance_fault"
-tags: Hardware, Scalance
+tags: Hardware, Scalance, Siemens
 vendor: Siemens
 target: Hardware
 type: Plugin
@@ -13,6 +13,6 @@ releases:
     files:
       -
         name: check_scalance_fault
-        url: "https://gitlab.com/faridj/check_scalance_fault/blob/master/check_scalance_fault.sh"
+        url: "https://gitlab.com/faridj/check_scalance_fault/raw/master/check_scalance_fault.sh"
         description: "First public release"
         checksum: 32c18d896d10ddf6558c187b08440b72 
