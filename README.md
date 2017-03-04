@@ -1,6 +1,6 @@
 # check_scalance_fault
 
-A plugin that uses SNMP to get error codes from a Siemens Scalance X300 or X400 switch.
+A plugin that uses SNMP to get error codes from a __Siemens Scalance X300__ or __X400__ switch.
 The plugin outputs the fault in a human readable form,
 as long as there are not several faults.
 
@@ -23,12 +23,15 @@ The script reads the OID snX300X400FaultValue and outputs the fault.
 * loopd error
 * Standby observer error
 
-If there are more than one fault, the script will output __"More than one error on device!"__.
+If there are more than one fault, the script will output "More than one error on device!".
 
 
 ## USAGE
-Add as a check in any Nagios compatible product with proper variables
-The script expects either two variables for SNMPv2c or six variables for SNMPv3.
+Add the script as a check in any Nagios compatible product with proper variables.
+
+The script expects either two variables for __SNMPv2c__ or six variables for __SNMPv3__.
+
+The variables are documented in the script.
 
 
 ## Version history
